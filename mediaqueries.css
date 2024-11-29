@@ -1,0 +1,166 @@
+@media (max-width: 600px) {
+    #page2{
+        padding: 0 0;
+        /* padding-top: 2rem; */
+        height: auto;
+    }
+    #page2 header p{
+        font-size: 1.7rem;
+        color:gray;
+        margin-bottom: 0.1rem;
+        padding: 0.5rem;
+        height: auto;
+    }
+    #page2 header h1{
+        font-size: 2rem;
+    }
+    #page2 header{
+        height: auto;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1 2rem;
+        
+    }
+    #page2 .about-cont{
+        height: auto;
+        /* background-color: green; */
+        display: flex;  
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    #page2 .about-cont .left{
+        height: auto;
+        width: 100%;
+        /* background-color: pink; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #page2 .about-cont .left img{
+        height:auto;
+        width: 50%;
+        border-radius: 2rem;
+        /* margin-top: -2rem; */
+    }
+    
+    #page2 .about-cont .right{
+        height: auto;
+        width: 100%;
+        /* background-color: burlywood; */
+        display: flex;
+        flex-direction: column;
+    }
+    #page2 .right p{
+        height: auto;
+        /* background-color: red;   */
+        text-align: justify;
+        /* margin-top: -0.8rem; */
+    
+    }
+    #page2 .about-cont .right .box-cont{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+    #page2 .right .boxes{
+    
+        height: auto;
+        width: 45%;
+        border-radius: 2rem;
+        /* background-color: blue; */
+        text-align: center;
+        margin-top: 2rem;
+    
+    }
+    #page2 .right .boxes h3{
+        font-size: 0.9rem;
+    }
+    #page2 .right .boxes p{
+        /* background-color: green; */
+        width: 90%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    #page2 .right .boxes img{
+        width: 20%;
+    }
+}@media (max-width:600px) {
+    nav{
+        height: 80px;
+        width: 100%;
+        border-bottom: none;
+        padding: 0 2rem;
+    }
+    nav :nth-child(1){
+        font-size: 1.5rem;
+    }
+    .nav-2 i{
+        display:block;
+        font-size: 9vw;
+        font-weight:400;
+    }
+    .nav-2 a{
+      display: none;
+    }
+    #page1 main{
+        flex-direction: column;
+        }
+   
+    #page1 main .left{
+        height: 47vw;
+        width:  47vw;  
+    }
+    #page1 main .right{
+        height: 50%;
+        width: 80%;
+        /* border: 2px solid black; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.2vw;
+    }
+    #page1 .right h1,h2,h5{
+        margin-bottom: 3vw;
+    }
+    #page1 .right h5{
+        font-size: 1.2rem;
+    }
+    #page1 .right h2{
+        font-size: 1.8rem;
+    }
+    #page1 .right h1{
+        font-size: 2.2rem;
+    }
+    #page1 .social-cont{
+        gap: 5vw;
+    }
+    #page1 main .right button{
+        height: 15%;
+        width: 55%;
+        border-radius: 50px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        margin-top: 2vw;
+        margin-bottom:4.5vw;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+
+}

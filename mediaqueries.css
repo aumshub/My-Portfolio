@@ -3,6 +3,7 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
+
   .about-containers {
     flex-wrap: wrap;
   }
@@ -10,17 +11,40 @@
   #projects {
     height: fit-content;
   }
-  .logo img {
-    height: 20rem;
-    object-fit: contain;
-    /* border: 2px solid green; */
-    display: flex;
+  .logo{
+    /* border: 2px solid black; */
+    height: 40px;
+    width:50px;  
+  }
+  #about h1, #experience h1, #projects h1{
+    color: white;
+  }
+  #about, #experience, #projects h3{
+    color: black;
+  }
+  #profile .section__pic-container img{
+    width: auto;
     justify-content: center;
     align-items: center;
-  }
+    width: 275px;
+    height: 275px;
+    display: flex;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+   }
+  
+.wrapper2 {
+  height: fit-content;
+  background-color: black;
+  border-radius: 3rem 3rem 3rem 3rem;
+}
+#loader{
+  transition: all linear 1s;
+}
 }
 
 @media screen and (max-width: 1200px) {
+
   #desktop-nav {
     display: none;
   }
@@ -70,8 +94,15 @@
     width: 275px;
     height: 275px;
     display: flex;
- 
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
    }
+   #profile .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
    #contact{
     height: 80vh;
    }
@@ -92,6 +123,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  #loader{
+    transition: all linear 8s;
+  }
   #contact,
   footer {
     height: 40vh;
@@ -106,6 +140,7 @@
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
+    margin-top: 4rem;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -122,8 +157,16 @@
   .experience-sub-title {
     font-size: 1.25rem;
   }
-  .logo {
-    font-size: 1.5rem;
+  .logo{
+    /* border: 2px solid black; */
+    height: 40px;
+    width:50px;  
+  }
+  .logo img {
+    height: 100%;
+    width: 100%;
+  object-position: center;
+    object-fit: cover;
   }
   .nav-links {
     height: 20vh;
@@ -174,7 +217,6 @@
    width: 175px;
    height: 175px;
    display: flex;
-
   }
   #about .about-containers{
     flex-direction: column;

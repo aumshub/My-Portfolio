@@ -6,13 +6,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>  
     <title>Document</title>
   </head>
   <body>
     <div id="wrapper">
+      <div id="loader">
+        <h1>WELCOME</h1>
+        <h1>TO</h1>
+        <h1>aum'sSPACE</h1>
+    </div>
       <nav id="desktop-nav">
         <div class="logo">
-          <img src="assets/images/mylogo.png" alt="logo" />
+          <img src="assets/images/logo.svg" alt="logo" />
         </div>
         <div>
           <ul class="nav-links">
@@ -25,7 +31,7 @@
       </nav>
       <nav id="hamburger-nav">
         <div class="logo">
-          <img src="assets/images/mylogo.png" alt="logo" />
+          <img src="assets/images/logo.svg" alt="logo" />
         </div>
         <div class="hamburger-menu">
           <div class="hamburger-icon" onclick="toggleMenu()">
@@ -42,16 +48,16 @@
         </div>
       </nav>
       <section id="profile">
-        <div class="section__pic-container">
+        <div class="section__pic-container profile-left">
           <img src="assets/images/myimg.jpg" alt="myimg" />
         </div>
         <div class="right">
-          <div class="section__text">
+          <div class="section__text profile-right" >
             <p class="section__text__p1">Hello I'm</p>
             <h1 class="title">Aum Patel</h1>
             <p class="section__text__p2">a software engineer</p>
           </div>
-          <div class="btn-container">
+          <div class="btn-container profile-right">
             <button
               class="btn btn-1"
               onclick="window.open('./assets/resume/resume.pdf')"
@@ -59,45 +65,33 @@
               Download CV
             </button>
           </div>
-          <div class="socials-container">
-            <img
-              src="assets/images/linkedin.png"
-              alt="My LinkedIn account"
-              class="icon"
-              onclick="window.open('https://linkedin.com/', '_blank');"
-            />
+          <div class="socials-container profile-right">
             <img
               src="assets/images/github.png"
               alt="My github account"
               class="icon"
               onclick="window.open('https://github.com/', '_blank');"
             />
+            <img
+              src="assets/images/linkedin.png"
+              alt="My LinkedIn account"
+              class="icon"
+              onclick="window.open('https://linkedin.com/', '_blank');"
+            />
           </div>
         </div>
       </section>
       <div class="wrapper2">
         <section id="about">
-          <p class="section__text__p1">Get to Know more</p>
+          <p class="section__text__p1 head-p">Get to Know more</p>
           <h1 class="title">about me</h1>
           <div class="section-container">
             <div class="section__pic-container">
-              <img
-                class="about-pic"
-                src="https://plus.unsplash.com/premium_photo-1677094766815-e0fe790e364a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="any image"
-              />
+               <div class="hs2"></div>
+               <!-- <div class="hs1"></div> -->
             </div>
             <div class="about-details-container">
               <div class="about-containers">
-                <div class="details-container">
-                  <img
-                    src="assets/images/experience.png"
-                    alt="experience"
-                    class="icon"
-                  />
-                  <h3>experience</h3>
-                  <p>2+years <br />font end devyes notung</p>
-                </div>
                 <div class="details-container">
                   <img
                     src="assets/images/education.png"
@@ -107,9 +101,18 @@
                   <h3>experience</h3>
                   <p>2+years <br />font end devyes notung</p>
                 </div>
+                <div class="details-container">
+                  <img
+                    src="assets/images/experience.png"
+                    alt="experience"
+                    class="icon"
+                  />
+                  <h3>experience</h3>
+                  <p>2+years <br />font end devyes notung</p>
+                </div>
               </div>
               <div class="text-container">
-                <p>
+                <p class="head-p">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Eaque voluptates sint necessitatibus iure quisquam maiores aut
                   nihil odit itaque doloremque amet eius esse delectus sapiente
@@ -122,7 +125,7 @@
         </section>
     
         <section id="experience">
-          <p class="section__text__p1">Experience</p>
+          <p class="section__text__p1 head-p">Experience</p>
           <h1 class="title">My Work Experience</h1>
           <div class="experience-detail-container">
             <div class="about-containers">
@@ -272,7 +275,7 @@
           </div>
         </section>
         <section id="projects">
-          <p class="section__text__p1">Browse my recents</p>
+          <p class="section__text__p1 head-p">Browse my recents</p>
           <h1 class="title">projects</h1>
           <div class="experience-details-container">
             <div class="about-containers">
@@ -354,6 +357,7 @@
               </div>
             </div>
           </div>
+        
         </section>
       </div>
         <section id="contact">
